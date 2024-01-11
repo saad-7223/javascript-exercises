@@ -1,5 +1,5 @@
 const repeatString = function(s,n) {
-    if(n!=-1){
+    if(n>=0){
         let ns = ""  //empty string
         for (let i=0;i<n;i++){
             ns += s  //adds string to empty string
